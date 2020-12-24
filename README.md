@@ -2,7 +2,7 @@ Informasi :
 # Update Module :
 apt update && apt upgrade -y && update-grub
 
-# Instalation Debian 9 :
+# Installation Debian 9 :
 apt update && apt upgrade -y && wget https://raw.githubusercontent.com/sshsedang/debian9/main/sshsedang.sh && chmod +x sshsedang.sh && ./sshsedang.sh
 
 # Untuk vps yang tidak langsung akses ke root :
