@@ -5,6 +5,12 @@ apt update && apt upgrade -y && update-grub
 # Instalation Debian 9 :
 apt update && apt upgrade -y && wget https://raw.githubusercontent.com/sshsedang/debian9/main/sshsedang.sh && chmod +x sshsedang.sh && ./sshsedang.sh
 
+# Untuk vps yang tidak langsung akses ke root :
+Setiap login vps melalui terminal jalankan perintah "sudo -i"
+
+1. sudo -i 
+2. apt install wget -y && wget -O sshsedang.sh "https://raw.githubusercontent.com/sshsedang/debian9/main/sshsedang.sh" && chmod +x sshsedang.sh && ./sshsedang.sh
+
 # Feature :
 OpenSSH : 22, 143, 2507
 <br>Dropbear : 111, 222, 333
