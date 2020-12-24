@@ -18,6 +18,6 @@ nginx : 81
 # Note :
 Setelah selesai install ssh, Harap restart stunnel4 & squid !!!
 
-# Dibuat Oleh :
+# Created :
 Ipang NetNot : 
 https://github.com/janda09
