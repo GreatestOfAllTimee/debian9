@@ -25,5 +25,4 @@ OpenSSH : 22, 143, 2507
 Setelah selesai install ssh, Harap restart stunnel4 & squid !!!
 
 # Created By :
-Ipang NetNot : 
-https://github.com/janda09
+Ipang NetNot
