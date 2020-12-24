@@ -6,17 +6,17 @@ apt update && apt upgrade -y && update-grub
 apt update && apt upgrade -y && wget https://raw.githubusercontent.com/sshsedang/debian9/main/sshsedang.sh && chmod +x sshsedang.sh && ./sshsedang.sh
 
 # Feature :
-<br>OpenSSH : 22, 143, 2507
-<br>Dropbear : 111, 222, 333
-<br>SSL : 444 (openvpn SSL) 
-<br>OpenVPN : 443 (TCP) 445 (UDP)
-<br>Squid3 : 80, 3128, 8080 (limit to IP SSH)
-<br>Config OpenVPN: http://myip:81/sshsedang.zip
-<br>badvpn : badvpn-udpgw port 7200
-<br>nginx : 81
+OpenSSH : 22, 143, 2507
+Dropbear : 111, 222, 333
+SSL : 444 (openvpn SSL) 
+OpenVPN : 443 (TCP) 445 (UDP)
+Squid3 : 80, 3128, 8080 (limit to IP SSH)
+Config OpenVPN: http://myip:81/sshsedang.zip
+badvpn udpgw : badvpn-udpgw port 7200
+nginx : 81
 
 # Note :
-<br>Setelah selesai install ssh, Harap restart stunnel4 & squid !!!
+Setelah selesai install ssh, Harap restart stunnel4 & squid !!!
 
 # Dibuat Oleh :
 Ipang NetNot : 
